@@ -30,10 +30,11 @@ public class Main {
         }
 
         while (true) {
-            System.out.println("1 - ver conta");
-            System.out.println("2 - depositar");
-            System.out.println("3 - sacar");
-            System.out.println("s - sair");
+            System.out.print("1 - ver conta\n");
+            System.out.print("2 - depositar\n");
+            System.out.print("3 - sacar\n");
+            System.out.print("s - sair\n");
+            System.out.print("Digite: ");
             opcao = scanner.next();
             if (opcao.equals("1")) {
                 mostrarDados();
