@@ -52,6 +52,10 @@ public class Main {
                 } else {
                     System.out.println("Este valor não pode ser sacado!");
                 }
+            } else if (opcao.equals("4")) {
+                System.out.println("Até mais, " + nome + "!");
+                System.out.println("saindo...");
+                break;
             }
         }
     }
